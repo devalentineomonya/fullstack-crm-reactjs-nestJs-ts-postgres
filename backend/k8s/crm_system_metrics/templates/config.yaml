@@ -1,0 +1,18 @@
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: crm-system-config
+data:
+  PORT: "3000"
+  DATABASE_HOST: "crm-database"
+  DATABASE_PORT: "5432"
+  DATABASE_DB: "crm-database"
+  DATABASE_USER: "postgres"
+  THROTTLER_LIMIT: "100"
+  THROTTLER_TTL: "60000"
+  SWAGGER_USER: "username"
+  SWAGGER_PASS: "password"
+  MAIL_HOST: "smtp.gmail.com"
+  MAIL_PORT: "465"
+  MAIL_SECURE: "true"
